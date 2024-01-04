@@ -1,5 +1,6 @@
-import * as React from "react"
-import type { HeadFC, PageProps } from "gatsby"
+import * as React from "react";
+import SEO from "../components/SEO";
+import type { HeadFC, PageProps } from "gatsby";
 
 const pageStyles = {
   color: "#232129",
@@ -190,4 +191,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => <SEO title="HOME" />
